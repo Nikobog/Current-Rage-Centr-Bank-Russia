@@ -139,7 +139,7 @@ $(document).ready( function () {
             },';
   }
     $toDB = '{
-        "users": { "login": "logIn", "pass": "nikobog" },
+        "users": { "login": "login", "pass": "nikobog" },
         "dateUpdate": "'.$endDateBase.'",
         "valutes": {'.substr($valutes,0,-1).'}
     }';
